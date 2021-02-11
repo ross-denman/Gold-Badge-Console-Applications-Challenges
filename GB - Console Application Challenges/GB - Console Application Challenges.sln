@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komodo Cafe", "Komodo Cafe\Komodo Cafe.csproj", "{6BA51752-BAC1-46BE-8D2C-8BF524F227FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA51752-BAC1-46BE-8D2C-8BF524F227FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA51752-BAC1-46BE-8D2C-8BF524F227FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA51752-BAC1-46BE-8D2C-8BF524F227FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA51752-BAC1-46BE-8D2C-8BF524F227FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6506F68-4648-4A70-8306-B1F43E026549}
+	EndGlobalSection
+EndGlobal
