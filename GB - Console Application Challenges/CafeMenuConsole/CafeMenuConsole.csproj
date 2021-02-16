@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6BA51752-BAC1-46BE-8D2C-8BF524F227FA}</ProjectGuid>
+    <ProjectGuid>{2F645E96-775A-42E4-A014-3FCB9759E5D6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Komodo_Cafe</RootNamespace>
-    <AssemblyName>Komodo Cafe</AssemblyName>
+    <RootNamespace>CafeMenuConsole</RootNamespace>
+    <AssemblyName>CafeMenuConsole</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,14 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ProgramUI.cs" />
-    <Compile Include="Ingredient.cs" />
-    <Compile Include="MenuItem.cs" />
-    <Compile Include="MenuRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MenuItem\CafeRepo.csproj">
+      <Project>{510d8b04-cb3b-4767-b491-400ddfe83d2b}</Project>
+      <Name>CafeRepo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

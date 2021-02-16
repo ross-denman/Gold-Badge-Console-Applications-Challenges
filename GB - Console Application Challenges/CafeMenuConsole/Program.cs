@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Komodo_Cafe
+namespace CafeMenuConsole
 {
     class Program
     {
         static void Main(string[] args)
-        {//first changes
-
+        {
+            ProgramUI UI = new ProgramUI();
+            UI.Run();
         }
     }
 }
