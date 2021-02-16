@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Komodo Cafe")]
+[assembly: AssemblyTitle("KomodoCafeConsole")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("Komodo Cafe")]
+[assembly: AssemblyProduct("KomodoCafeConsole")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6ba51752-bac1-46be-8d2c-8bf524f227fa")]
+[assembly: Guid("fa24e4b8-8f7c-47d0-8177-7e19aa5b6f7c")]
 
 // Version information for an assembly consists of the following four values:
 //
