@@ -38,13 +38,13 @@ namespace ClaimsTest
         public void GetMenuItemsTest()
         {
             // ARRANGE
-            Seed();
+            //Seed();
 
             // ACT
             List<Claim> all = _repo.GetAllClaims();
 
             // ASSERT
-            Assert.AreEqual(4, all.Count);
+            Assert.AreEqual(2, all.Count);
         }
 
         // DELETE Method Test

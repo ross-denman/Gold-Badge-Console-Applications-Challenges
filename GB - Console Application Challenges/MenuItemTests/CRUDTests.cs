@@ -52,22 +52,20 @@ namespace MenuItemTests
         [TestMethod]
         public void GetMenuItemsTest()
         {
-            // ARRANGE
-            Seed();
+            // ARRANGE - seeded from test initialize
 
             // ACT
             List<MenuItem> all = _repo.GetMenuItems();
 
             // ASSERT
-            Assert.AreEqual(4, all.Count);
+            Assert.AreEqual(2, all.Count);
         }
 
         // DELETE Method Test
         [TestMethod]
         public void RemoveMenuItemTest()
         {
-            // ARRANGE
-            Seed();
+            // ARRANGE - seeded from test initialize
 
             // ACT
             bool wasRemoved = _repo.RemoveMenuItem(1);
